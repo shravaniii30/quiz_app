@@ -143,7 +143,7 @@ class _QuizAppState extends State {
                 onPressed: () {
                   if (selectedAnswerIndex == -1) {
                     selectedAnswerIndex = 0;
-                    setState(() {});
+                    setState(() {}) ;
                   }
                 },
                 child: Text(
